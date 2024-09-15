@@ -1,0 +1,40 @@
+ Console-Based Car Racing Game
+
+ Overview
+
+This is a simple console-based car racing game developed in C++. The game features two cars competing on a racing track. Players can control the movement of each car using specific keys and earn points based on their progress. The game continues until one of the cars reaches the end of the track.
+
+ How to Play
+ -  Car 1 Controls:
+  - Move left: Press 'a'
+  - Move right: Press 'd'
+
+- Car 2 Controls:
+  - Move left: Press 'j'
+  - Move right: Press 'l'
+
+- Quit Game:
+  - Press 'q'
+
+ Getting Started
+1. Run the program.
+2. Enter the desired track length when prompted.
+3. Follow the on-screen instructions to control each car.
+4. Race towards the end of the track to win!
+
+ Game Rules
+- Cars cannot move beyond the boundaries of the track.
+- Points are awarded for forward movement and deducted for backward movement.
+- The game continues until one of the cars reaches the end of the track.
+
+ Winning the Game
+- The game announces the winner when one of the cars reaches the end of the track.
+- The winner is determined based on both position and points.
+
+ Developer
+
+- Mohammad Ali Soomro 
+
+ Special Thanks
+
+Thank you for playing the Grand Car Racing Game! Enjoy the race and may the best car win!

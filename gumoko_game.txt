@@ -1,0 +1,72 @@
+
+Gumoku Game [TICK TAC TOE]
+
+ Overview
+
+This C++ program implements a simple console-based version of the Gumoku game, a variation of the classic game of Gomoku. The game allows two players to take turns placing their symbols on a grid and the first player to achieve a specified number of symbols in a row (horizontal, vertical, or diagonal) wins the game. The game supports two modes: Human vs Human and Human vs Bot.
+
+ File Structure
+
+- gumoku.cpp: Contains the main code for the Gumoku game.
+  
+ Prerequisites
+
+- C++ Compiler (e.g., Dev C++)
+- Basic understanding of C++ programming
+
+ How to Run
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the `gumoku.cpp` file.
+3. Compile the code using a C++ compiler.
+ 
+   
+4. Run the compiled executable:
+ 
+
+ Game Modes
+
+ 1. Human vs Human
+- In this mode, two human players take turns making moves on the grid.
+- Each player enters their move in the format `[row, column]`.
+
+2. Human vs Bot
+- In this mode, one human player competes against a computer bot.
+- The human player enters their moves, while the bot uses an intelligent strategy to make its moves.
+
+ Code Explanation
+
+ Class: gumoku
+
+Member Functions
+
+1. **init:** Initializes the game by setting up the grid, player names, and the initial turn.
+2. **display_board:** Displays the current state of the game board.
+3. **display_turn_message:** Displays the message indicating whose turn it is.
+4. **selectPosition:** Takes user input for the row and column of their move.
+5. **IsValidDestination:** Checks if the specified position on the board is a valid move.
+6. **update_board:** Updates the game board with the player's move.
+7. **turn_change:** Changes the turn from one player to another.
+8. **isHorizontalCheck:** Checks for a win in the horizontal direction.
+9. **isVerticalCheck:** Checks for a win in the vertical direction.
+10. **isDiagonalRightCheck:** Checks for a win in the right diagonal direction.
+11. **isDiagonalLeftCheck:** Checks for a win in the left diagonal direction.
+12. **IsWin:** Checks if the current move results in a win.
+13. **IsDraw:** Checks if the game has ended in a draw.
+14. **HumanvsComputer:** Implements the bot's move in Human vs Bot mode.
+15. **HvsC:** Implements the strategy for the bot's move in Human vs Bot mode.
+16. **isNearHumanMove:** Checks if the bot's move is near the human player's move.
+
+ Main Function
+
+1. **main:** The entry point of the program, where the game is initialized, played, and the winner or draw is announced.
+
+ Customization
+
+- The grid size and win count can be adjusted by modifying the `dim` and `winCount` variables.
+- Player symbols, names, and the order of play can be modified.
+
+ 
+THANK YOU FOR READING
+
+MOHAMMAD ALI
